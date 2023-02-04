@@ -1,0 +1,20 @@
+body {
+    background-color:rgb(130, 251, 237);
+    width: 500px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.button01  {
+    padding:5px 20px;
+    background-color:gold;
+    border-style:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.text01 {
+    border-style:none;
+    height:30px;
+    border-radius:5px;
+}

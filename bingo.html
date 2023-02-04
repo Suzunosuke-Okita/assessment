@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BINGOサイト</title>
+    <link rel="stylesheet" href="bingo.css">
+</head>
+<body>
+    <script src="bingo.js"></script>
+    <form action="test.html" method="post" enctype="multipart/form-data" >
+        <input type="file" name="test" onchange="previewFile(this);">
+    </form>
+    <img id="preview">
+    <form>
+        <div>
+        <input type="text" id="dat" size=30 placeholder="ランダムに表示されます" class="text01">
+        　<input type="button" value="ビンゴ！" onClick="ranAry()" class="button01">　
+        </div>
+    </form>
+</body>
+</html>
